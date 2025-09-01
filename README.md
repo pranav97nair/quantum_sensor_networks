@@ -10,8 +10,8 @@ following the instructions at https://forum.netsquid.org/
 After this you will need to download the squidasm directory included in this project, or to ensure you have the latest version follow
 the instructions at https://squidasm.readthedocs.io/en/latest/installation.html
 
-The general layout of each sub-directory is as follows:
-/ : Application files defining various node programs and executables for various simulations
+The general layout of each sub-directory is as follows:\n
+/ : Application files defining various node programs and executables for various simulations\n
 /qia_params : Contains network configuration data files with latest parameter values for various network noise profiles from QIA
 /data : Contains .txt files with numerical results from the simulations
 /plotting : Contains python files for plotting the simulation results 
