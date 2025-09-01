@@ -1,0 +1,242 @@
+WARNING:0.0 ns:Stack.Node_1_Verifier:Stabilizers: ['-XXYY', '-YXXY', '-YYXX', 'XXXX']
+WARNING:0.0 ns:Stack.Node_1_Verifier:Copy groups: 
+[[11, 22, 6], [14, 5, 10], [20, 16, 9], [21, 13, 1], [7]]
+
+WARNING:400.0 ns:Stack.Node_1_Verifier:Copy: 0, qubit action: discard
+WARNING:400.0 ns:Stack.Node_1_Verifier:Copy 0 discarded
+WARNING:700.0 ns:Stack.Node_2_Member:Copy: 0, Received qubit action: discard
+WARNING:700.0 ns:Stack.Node_2_Member:Copy 0 discarded
+WARNING:1000.0 ns:Stack.Node_3_Member:Copy: 0, Received qubit action: discard
+WARNING:1000.0 ns:Stack.Node_3_Member:Copy 0 discarded
+WARNING:1100.0 ns:Stack.Node_4_Member:Copy: 0, Received qubit action: discard
+WARNING:1100.0 ns:Stack.Node_4_Member:Copy 0 discarded
+WARNING:1300.0 ns:Stack.Node_1_Verifier:Copy: 1, qubit action: measure
+WARNING:1300.0 ns:Stack.Node_1_Verifier:Measurement: ['X', 'X', 'X', 'X']
+WARNING:1300.0 ns:Stack.Node_1_Verifier:Node_1 will measure in X basis
+WARNING:1600.0 ns:Stack.Node_2_Member:Copy: 1, Received qubit action: measure
+WARNING:1600.0 ns:Stack.Node_2_Member:Node_2 will measure in X basis
+WARNING:1900.0 ns:Stack.Node_3_Member:Copy: 1, Received qubit action: measure
+WARNING:1900.0 ns:Stack.Node_3_Member:Node_3 will measure in X basis
+WARNING:2100.0 ns:Stack.Node_4_Member:Copy: 1, Received qubit action: measure
+WARNING:2100.0 ns:Stack.Node_4_Member:Node_4 will measure in X basis
+WARNING:2500.0 ns:Stack.Node_1_Verifier:Copy: 2, qubit action: discard
+WARNING:2500.0 ns:Stack.Node_1_Verifier:Copy 2 discarded
+WARNING:2800.0 ns:Stack.Node_2_Member:Copy: 2, Received qubit action: discard
+WARNING:2800.0 ns:Stack.Node_2_Member:Copy 2 discarded
+WARNING:3100.0 ns:Stack.Node_3_Member:Copy: 2, Received qubit action: discard
+WARNING:3100.0 ns:Stack.Node_3_Member:Copy 2 discarded
+WARNING:3200.0 ns:Stack.Node_4_Member:Copy: 2, Received qubit action: discard
+WARNING:3200.0 ns:Stack.Node_4_Member:Copy 2 discarded
+WARNING:3400.0 ns:Stack.Node_1_Verifier:Copy: 3, qubit action: discard
+WARNING:3400.0 ns:Stack.Node_1_Verifier:Copy 3 discarded
+WARNING:3700.0 ns:Stack.Node_2_Member:Copy: 3, Received qubit action: discard
+WARNING:3700.0 ns:Stack.Node_2_Member:Copy 3 discarded
+WARNING:4000.0 ns:Stack.Node_3_Member:Copy: 3, Received qubit action: discard
+WARNING:4000.0 ns:Stack.Node_3_Member:Copy 3 discarded
+WARNING:4100.0 ns:Stack.Node_4_Member:Copy: 3, Received qubit action: discard
+WARNING:4100.0 ns:Stack.Node_4_Member:Copy 3 discarded
+WARNING:4300.0 ns:Stack.Node_1_Verifier:Copy: 4, qubit action: discard
+WARNING:4300.0 ns:Stack.Node_1_Verifier:Copy 4 discarded
+WARNING:4600.0 ns:Stack.Node_2_Member:Copy: 4, Received qubit action: discard
+WARNING:4600.0 ns:Stack.Node_2_Member:Copy 4 discarded
+WARNING:4900.0 ns:Stack.Node_3_Member:Copy: 4, Received qubit action: discard
+WARNING:4900.0 ns:Stack.Node_3_Member:Copy 4 discarded
+WARNING:5000.0 ns:Stack.Node_4_Member:Copy: 4, Received qubit action: discard
+WARNING:5000.0 ns:Stack.Node_4_Member:Copy 4 discarded
+WARNING:5200.0 ns:Stack.Node_1_Verifier:Copy: 5, qubit action: measure
+WARNING:5200.0 ns:Stack.Node_1_Verifier:Measurement: ['Y', 'X', 'X', 'Y']
+WARNING:5200.0 ns:Stack.Node_1_Verifier:Node_1 will measure in Y basis
+WARNING:5500.0 ns:Stack.Node_2_Member:Copy: 5, Received qubit action: measure
+WARNING:5500.0 ns:Stack.Node_2_Member:Node_2 will measure in X basis
+WARNING:5800.0 ns:Stack.Node_3_Member:Copy: 5, Received qubit action: measure
+WARNING:5800.0 ns:Stack.Node_3_Member:Node_3 will measure in X basis
+WARNING:6000.0 ns:Stack.Node_4_Member:Copy: 5, Received qubit action: measure
+WARNING:6000.0 ns:Stack.Node_4_Member:Node_4 will measure in Y basis
+WARNING:6400.0 ns:Stack.Node_1_Verifier:Copy: 6, qubit action: measure
+WARNING:6400.0 ns:Stack.Node_1_Verifier:Measurement: ['X', 'X', 'Y', 'Y']
+WARNING:6400.0 ns:Stack.Node_1_Verifier:Node_1 will measure in X basis
+WARNING:6700.0 ns:Stack.Node_2_Member:Copy: 6, Received qubit action: measure
+WARNING:6700.0 ns:Stack.Node_2_Member:Node_2 will measure in X basis
+WARNING:7000.0 ns:Stack.Node_3_Member:Copy: 6, Received qubit action: measure
+WARNING:7000.0 ns:Stack.Node_3_Member:Node_3 will measure in Y basis
+WARNING:7200.0 ns:Stack.Node_4_Member:Copy: 6, Received qubit action: measure
+WARNING:7200.0 ns:Stack.Node_4_Member:Node_4 will measure in Y basis
+WARNING:7600.0 ns:Stack.Node_1_Verifier:Copy: 7, qubit action: keep
+WARNING:7600.0 ns:Stack.Node_1_Verifier:Copy 7 stored as target
+WARNING:7900.0 ns:Stack.Node_2_Member:Copy: 7, Received qubit action: keep
+WARNING:7900.0 ns:Stack.Node_2_Member:Copy 7 stored as target
+WARNING:8200.0 ns:Stack.Node_3_Member:Copy: 7, Received qubit action: keep
+WARNING:8200.0 ns:Stack.Node_3_Member:Copy 7 stored as target
+WARNING:8300.0 ns:Stack.Node_4_Member:Copy: 7, Received qubit action: keep
+WARNING:8300.0 ns:Stack.Node_4_Member:Copy 7 stored as target
+WARNING:8500.0 ns:Stack.Node_1_Verifier:Copy: 8, qubit action: discard
+WARNING:8500.0 ns:Stack.Node_1_Verifier:Copy 8 discarded
+WARNING:8800.0 ns:Stack.Node_2_Member:Copy: 8, Received qubit action: discard
+WARNING:8800.0 ns:Stack.Node_2_Member:Copy 8 discarded
+WARNING:9100.0 ns:Stack.Node_3_Member:Copy: 8, Received qubit action: discard
+WARNING:9100.0 ns:Stack.Node_3_Member:Copy 8 discarded
+WARNING:9200.0 ns:Stack.Node_4_Member:Copy: 8, Received qubit action: discard
+WARNING:9200.0 ns:Stack.Node_4_Member:Copy 8 discarded
+WARNING:9400.0 ns:Stack.Node_1_Verifier:Copy: 9, qubit action: measure
+WARNING:9400.0 ns:Stack.Node_1_Verifier:Measurement: ['Y', 'Y', 'X', 'X']
+WARNING:9400.0 ns:Stack.Node_1_Verifier:Node_1 will measure in Y basis
+WARNING:9700.0 ns:Stack.Node_2_Member:Copy: 9, Received qubit action: measure
+WARNING:9700.0 ns:Stack.Node_2_Member:Node_2 will measure in Y basis
+WARNING:10000.0 ns:Stack.Node_3_Member:Copy: 9, Received qubit action: measure
+WARNING:10000.0 ns:Stack.Node_3_Member:Node_3 will measure in X basis
+WARNING:10200.0 ns:Stack.Node_4_Member:Copy: 9, Received qubit action: measure
+WARNING:10200.0 ns:Stack.Node_4_Member:Node_4 will measure in X basis
+WARNING:10600.0 ns:Stack.Node_1_Verifier:Copy: 10, qubit action: measure
+WARNING:10600.0 ns:Stack.Node_1_Verifier:Measurement: ['Y', 'X', 'X', 'Y']
+WARNING:10600.0 ns:Stack.Node_1_Verifier:Node_1 will measure in Y basis
+WARNING:10900.0 ns:Stack.Node_2_Member:Copy: 10, Received qubit action: measure
+WARNING:10900.0 ns:Stack.Node_2_Member:Node_2 will measure in X basis
+WARNING:11200.0 ns:Stack.Node_3_Member:Copy: 10, Received qubit action: measure
+WARNING:11200.0 ns:Stack.Node_3_Member:Node_3 will measure in X basis
+WARNING:11400.0 ns:Stack.Node_4_Member:Copy: 10, Received qubit action: measure
+WARNING:11400.0 ns:Stack.Node_4_Member:Node_4 will measure in Y basis
+WARNING:11800.0 ns:Stack.Node_1_Verifier:Copy: 11, qubit action: measure
+WARNING:11800.0 ns:Stack.Node_1_Verifier:Measurement: ['X', 'X', 'Y', 'Y']
+WARNING:11800.0 ns:Stack.Node_1_Verifier:Node_1 will measure in X basis
+WARNING:12100.0 ns:Stack.Node_2_Member:Copy: 11, Received qubit action: measure
+WARNING:12100.0 ns:Stack.Node_2_Member:Node_2 will measure in X basis
+WARNING:12400.0 ns:Stack.Node_3_Member:Copy: 11, Received qubit action: measure
+WARNING:12400.0 ns:Stack.Node_3_Member:Node_3 will measure in Y basis
+WARNING:12600.0 ns:Stack.Node_4_Member:Copy: 11, Received qubit action: measure
+WARNING:12600.0 ns:Stack.Node_4_Member:Node_4 will measure in Y basis
+WARNING:13000.0 ns:Stack.Node_1_Verifier:Copy: 12, qubit action: discard
+WARNING:13000.0 ns:Stack.Node_1_Verifier:Copy 12 discarded
+WARNING:13300.0 ns:Stack.Node_2_Member:Copy: 12, Received qubit action: discard
+WARNING:13300.0 ns:Stack.Node_2_Member:Copy 12 discarded
+WARNING:13600.0 ns:Stack.Node_3_Member:Copy: 12, Received qubit action: discard
+WARNING:13600.0 ns:Stack.Node_3_Member:Copy 12 discarded
+WARNING:13700.0 ns:Stack.Node_4_Member:Copy: 12, Received qubit action: discard
+WARNING:13700.0 ns:Stack.Node_4_Member:Copy 12 discarded
+WARNING:13900.0 ns:Stack.Node_1_Verifier:Copy: 13, qubit action: measure
+WARNING:13900.0 ns:Stack.Node_1_Verifier:Measurement: ['X', 'X', 'X', 'X']
+WARNING:13900.0 ns:Stack.Node_1_Verifier:Node_1 will measure in X basis
+WARNING:14200.0 ns:Stack.Node_2_Member:Copy: 13, Received qubit action: measure
+WARNING:14200.0 ns:Stack.Node_2_Member:Node_2 will measure in X basis
+WARNING:14500.0 ns:Stack.Node_3_Member:Copy: 13, Received qubit action: measure
+WARNING:14500.0 ns:Stack.Node_3_Member:Node_3 will measure in X basis
+WARNING:14700.0 ns:Stack.Node_4_Member:Copy: 13, Received qubit action: measure
+WARNING:14700.0 ns:Stack.Node_4_Member:Node_4 will measure in X basis
+WARNING:15100.0 ns:Stack.Node_1_Verifier:Copy: 14, qubit action: measure
+WARNING:15100.0 ns:Stack.Node_1_Verifier:Measurement: ['Y', 'X', 'X', 'Y']
+WARNING:15100.0 ns:Stack.Node_1_Verifier:Node_1 will measure in Y basis
+WARNING:15400.0 ns:Stack.Node_2_Member:Copy: 14, Received qubit action: measure
+WARNING:15400.0 ns:Stack.Node_2_Member:Node_2 will measure in X basis
+WARNING:15700.0 ns:Stack.Node_3_Member:Copy: 14, Received qubit action: measure
+WARNING:15700.0 ns:Stack.Node_3_Member:Node_3 will measure in X basis
+WARNING:15900.0 ns:Stack.Node_4_Member:Copy: 14, Received qubit action: measure
+WARNING:15900.0 ns:Stack.Node_4_Member:Node_4 will measure in Y basis
+WARNING:16300.0 ns:Stack.Node_1_Verifier:Copy: 15, qubit action: discard
+WARNING:16300.0 ns:Stack.Node_1_Verifier:Copy 15 discarded
+WARNING:16600.0 ns:Stack.Node_2_Member:Copy: 15, Received qubit action: discard
+WARNING:16600.0 ns:Stack.Node_2_Member:Copy 15 discarded
+WARNING:16900.0 ns:Stack.Node_3_Member:Copy: 15, Received qubit action: discard
+WARNING:16900.0 ns:Stack.Node_3_Member:Copy 15 discarded
+WARNING:17000.0 ns:Stack.Node_4_Member:Copy: 15, Received qubit action: discard
+WARNING:17000.0 ns:Stack.Node_4_Member:Copy 15 discarded
+WARNING:17200.0 ns:Stack.Node_1_Verifier:Copy: 16, qubit action: measure
+WARNING:17200.0 ns:Stack.Node_1_Verifier:Measurement: ['Y', 'Y', 'X', 'X']
+WARNING:17200.0 ns:Stack.Node_1_Verifier:Node_1 will measure in Y basis
+WARNING:17500.0 ns:Stack.Node_2_Member:Copy: 16, Received qubit action: measure
+WARNING:17500.0 ns:Stack.Node_2_Member:Node_2 will measure in Y basis
+WARNING:17800.0 ns:Stack.Node_3_Member:Copy: 16, Received qubit action: measure
+WARNING:17800.0 ns:Stack.Node_3_Member:Node_3 will measure in X basis
+WARNING:18000.0 ns:Stack.Node_4_Member:Copy: 16, Received qubit action: measure
+WARNING:18000.0 ns:Stack.Node_4_Member:Node_4 will measure in X basis
+WARNING:18400.0 ns:Stack.Node_1_Verifier:Copy: 17, qubit action: discard
+WARNING:18400.0 ns:Stack.Node_1_Verifier:Copy 17 discarded
+WARNING:18700.0 ns:Stack.Node_2_Member:Copy: 17, Received qubit action: discard
+WARNING:18700.0 ns:Stack.Node_2_Member:Copy 17 discarded
+WARNING:19000.0 ns:Stack.Node_3_Member:Copy: 17, Received qubit action: discard
+WARNING:19000.0 ns:Stack.Node_3_Member:Copy 17 discarded
+WARNING:19100.0 ns:Stack.Node_4_Member:Copy: 17, Received qubit action: discard
+WARNING:19100.0 ns:Stack.Node_4_Member:Copy 17 discarded
+WARNING:19300.0 ns:Stack.Node_1_Verifier:Copy: 18, qubit action: discard
+WARNING:19300.0 ns:Stack.Node_1_Verifier:Copy 18 discarded
+WARNING:19600.0 ns:Stack.Node_2_Member:Copy: 18, Received qubit action: discard
+WARNING:19600.0 ns:Stack.Node_2_Member:Copy 18 discarded
+WARNING:19900.0 ns:Stack.Node_3_Member:Copy: 18, Received qubit action: discard
+WARNING:19900.0 ns:Stack.Node_3_Member:Copy 18 discarded
+WARNING:20000.0 ns:Stack.Node_4_Member:Copy: 18, Received qubit action: discard
+WARNING:20000.0 ns:Stack.Node_4_Member:Copy 18 discarded
+WARNING:20200.0 ns:Stack.Node_1_Verifier:Copy: 19, qubit action: discard
+WARNING:20200.0 ns:Stack.Node_1_Verifier:Copy 19 discarded
+WARNING:20500.0 ns:Stack.Node_2_Member:Copy: 19, Received qubit action: discard
+WARNING:20500.0 ns:Stack.Node_2_Member:Copy 19 discarded
+WARNING:20800.0 ns:Stack.Node_3_Member:Copy: 19, Received qubit action: discard
+WARNING:20800.0 ns:Stack.Node_3_Member:Copy 19 discarded
+WARNING:20900.0 ns:Stack.Node_4_Member:Copy: 19, Received qubit action: discard
+WARNING:20900.0 ns:Stack.Node_4_Member:Copy 19 discarded
+WARNING:21100.0 ns:Stack.Node_1_Verifier:Copy: 20, qubit action: measure
+WARNING:21100.0 ns:Stack.Node_1_Verifier:Measurement: ['Y', 'Y', 'X', 'X']
+WARNING:21100.0 ns:Stack.Node_1_Verifier:Node_1 will measure in Y basis
+WARNING:21400.0 ns:Stack.Node_2_Member:Copy: 20, Received qubit action: measure
+WARNING:21400.0 ns:Stack.Node_2_Member:Node_2 will measure in Y basis
+WARNING:21700.0 ns:Stack.Node_3_Member:Copy: 20, Received qubit action: measure
+WARNING:21700.0 ns:Stack.Node_3_Member:Node_3 will measure in X basis
+WARNING:21900.0 ns:Stack.Node_4_Member:Copy: 20, Received qubit action: measure
+WARNING:21900.0 ns:Stack.Node_4_Member:Node_4 will measure in X basis
+WARNING:22300.0 ns:Stack.Node_1_Verifier:Copy: 21, qubit action: measure
+WARNING:22300.0 ns:Stack.Node_1_Verifier:Measurement: ['X', 'X', 'X', 'X']
+WARNING:22300.0 ns:Stack.Node_1_Verifier:Node_1 will measure in X basis
+WARNING:22600.0 ns:Stack.Node_2_Member:Copy: 21, Received qubit action: measure
+WARNING:22600.0 ns:Stack.Node_2_Member:Node_2 will measure in X basis
+WARNING:22900.0 ns:Stack.Node_3_Member:Copy: 21, Received qubit action: measure
+WARNING:22900.0 ns:Stack.Node_3_Member:Node_3 will measure in X basis
+WARNING:23100.0 ns:Stack.Node_4_Member:Copy: 21, Received qubit action: measure
+WARNING:23100.0 ns:Stack.Node_4_Member:Node_4 will measure in X basis
+WARNING:23500.0 ns:Stack.Node_1_Verifier:Copy: 22, qubit action: measure
+WARNING:23500.0 ns:Stack.Node_1_Verifier:Measurement: ['X', 'X', 'Y', 'Y']
+WARNING:23500.0 ns:Stack.Node_1_Verifier:Node_1 will measure in X basis
+WARNING:23800.0 ns:Stack.Node_2_Member:Copy: 22, Received qubit action: measure
+WARNING:23800.0 ns:Stack.Node_2_Member:Node_2 will measure in X basis
+WARNING:24100.0 ns:Stack.Node_3_Member:Copy: 22, Received qubit action: measure
+WARNING:24100.0 ns:Stack.Node_3_Member:Node_3 will measure in Y basis
+WARNING:24300.0 ns:Stack.Node_4_Member:Copy: 22, Received qubit action: measure
+WARNING:24300.0 ns:Stack.Node_4_Member:Node_4 will measure in Y basis
+WARNING:24700.0 ns:Stack.Node_1_Verifier:Copy: 23, qubit action: discard
+WARNING:24700.0 ns:Stack.Node_1_Verifier:Copy 23 discarded
+WARNING:24700.0 ns:Stack.Node_1_Verifier:Results for -XXYY: 
+[[-1 -1 -1  1]
+ [-1  1  1  1]
+ [-1 -1 -1  1]]
+WARNING:24700.0 ns:Stack.Node_1_Verifier:Failure rate: 0.0
+
+WARNING:24700.0 ns:Stack.Node_1_Verifier:Results for -YXXY: 
+[[-1 -1  1 -1]
+ [-1  1 -1 -1]
+ [-1  1 -1 -1]]
+WARNING:24700.0 ns:Stack.Node_1_Verifier:Failure rate: 0.0
+
+WARNING:24700.0 ns:Stack.Node_1_Verifier:Results for -YYXX: 
+[[-1  1  1  1]
+ [ 1  1 -1  1]
+ [-1 -1  1 -1]]
+WARNING:24700.0 ns:Stack.Node_1_Verifier:Failure rate: 0.0
+
+WARNING:24700.0 ns:Stack.Node_1_Verifier:Results for XXXX: 
+[[-1 -1 -1 -1]
+ [-1  1 -1  1]
+ [-1  1 -1  1]]
+WARNING:24700.0 ns:Stack.Node_1_Verifier:Failure rate: 0.0
+
+WARNING:24700.0 ns:Stack.Node_1_Verifier:Average failure rate: 0.0
+WARNING:24700.0 ns:Stack.Node_1_Verifier:Threshold failure rate is 0.03125
+WARNING:24700.0 ns:Stack.Node_1_Verifier:Average failure rate below threshold. Continuing with sensing.
+WARNING:24700.0 ns:Stack.Node_1_Verifier:Outputting unmeasured qubit
+WARNING:25000.0 ns:Stack.Node_2_Member:Copy: 23, Received qubit action: discard
+WARNING:25000.0 ns:Stack.Node_2_Member:Copy 23 discarded
+WARNING:25000.0 ns:Stack.Node_2_Member:Received message: continue from Verifier
+WARNING:25000.0 ns:Stack.Node_2_Member:Outputting unmeasured qubit
+WARNING:25300.0 ns:Stack.Node_3_Member:Copy: 23, Received qubit action: discard
+WARNING:25300.0 ns:Stack.Node_3_Member:Copy 23 discarded
+WARNING:25300.0 ns:Stack.Node_3_Member:Received message: continue from Verifier
+WARNING:25300.0 ns:Stack.Node_3_Member:Outputting unmeasured qubit
+WARNING:25400.0 ns:Stack.Node_4_Member:Copy: 23, Received qubit action: discard
+WARNING:25400.0 ns:Stack.Node_4_Member:Copy 23 discarded
+WARNING:25400.0 ns:Stack.Node_4_Member:Received message: continue from Verifier
+WARNING:25400.0 ns:Stack.Node_4_Member:Outputting density matrix of shared state

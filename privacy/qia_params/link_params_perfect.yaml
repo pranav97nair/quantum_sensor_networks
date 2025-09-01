@@ -1,0 +1,5 @@
+fidelity: 1  # 2.05 ms, d=50km
+prob_success: 1 
+state_delay: 100
+length: 50
+speed_of_light: 200_000

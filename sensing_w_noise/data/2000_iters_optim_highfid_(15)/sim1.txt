@@ -1,0 +1,7 @@
+# parameters:
+#  num_nodes=4, num_iters=2000, ntest=15, state=ghz
+# columns:
+#  sensing_iteration   running_frequency   running_estimation   average_phase
+104 0.0 0.7853981633974483 1.1247942106620121
+731 0.0 0.7853981633974483 1.1247942106620121
+920 0.0 0.7853981633974483 1.1247942106620121

@@ -1,0 +1,7 @@
+# parameters:
+#   min_num_nodes=8, max_num_nodes=10, num_iters=10, ntest=10
+# columns:
+#   num_nodes   f_noisy_network    f_noisy_links_perfect_devices f_perfect_links_noisy_devices  f_perfect_network
+8 0.45375 0.43499999999999994 0.035 0.0
+9 0.44222222222222224 0.5055555555555555 0.04666666666666667 0.0
+10 0.454 0.43900000000000006 0.046000000000000006 0.0

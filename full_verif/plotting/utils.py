@@ -1,0 +1,211 @@
+from pprint import pprint
+from typing import List
+from application import *
+from verification_programs import *
+from verification_programs_v2 import *
+from verification_programs_v3 import *
+from plus_state_programs import *
+from bell_state_programs import *
+from sensing_programs_v3 import *
+
+from netsquid_netbuilder.modules.clinks import DefaultCLinkConfig
+from netsquid_netbuilder.modules.qlinks import DepolariseQLinkConfig
+from netsquid_netbuilder.modules.qdevices import GenericQDeviceConfig
+from netsquid_netbuilder.modules.qlinks.perfect import PerfectQLinkConfig
+
+from squidasm.util.util import create_complete_graph_network # type: ignore
+
+###
+#   Function to initialize GHZ distribution programs on all nodes in a network.
+#   Also generates a list of node names for the network.
+###
+def init_GHZ_programs(num_nodes: int, measure_qubits: bool=True, full_state: bool=False, num_copies: int=1):
+    node_names = [f"Node_{i+1}" for i in range(num_nodes)]
+    if measure_qubits:
+        programs = (
+            {name: GHZProgram(name, node_names) for name in node_names}
+            if num_copies <= 1
+            else {name: GHZProgram_multi(name, node_names, num_copies) for name in node_names}
+        )
+    elif full_state:
+        programs = {name: GHZProgram_send_full_state(name, node_names) for name in node_names}
+    else:
+        programs = {name: GHZProgram_send_reduc_states(name, node_names) for name in node_names}
+        
+    return programs, node_names
+
+###
+#   Function to initialize GHZ verification programs on all nodes in the network
+#   Initializes one of two versions of the verification protocol
+#   Automatically selects the first node as the Verifier
+#   Also returns a list of node names for the network
+###
+def init_verification_programs(num_nodes: int, n_test: int, state: str="ghz", version: int=2):
+    # Initialize node names list and select verifier node
+    node_names = [f"Node_{i+1}" for i in range(num_nodes)]
+    verifier = node_names[0]
+
+    if version == 1:
+        programs = {verifier: GHZProgram_verifier(verifier, node_names, n_test)}
+        programs.update({name: GHZProgram_member(name, node_names, n_test) 
+                        for name in node_names if name != verifier})
+    
+    elif version == 2:
+        if state == "ghz":
+            programs = {verifier: GHZVerifierNode_v2(verifier, node_names, n_test)}
+            programs.update({name: GHZMemberNode_v2(name, node_names, n_test) 
+                            for name in node_names if name != verifier})
+        elif state == "plus":
+            programs = {verifier: GHZVerifier_plus_states(verifier, node_names, n_test)}
+            programs.update({name: GHZMember_plus_states(name, node_names, n_test) 
+                            for name in node_names if name != verifier})
+        elif state == "bell":
+            if num_nodes % 2 != 0:
+                raise ValueError("In order to run bell state programs, num_nodes must be an even number.")
+            programs = {verifier: GHZVerifier_bell_states(verifier, node_names, n_test)}
+            programs.update({name: GHZMember_bell_states(name, node_names, n_test) 
+                            for name in node_names if name != verifier})
+        else:
+            raise ValueError("State must be one of 'ghz', 'plus', or 'bell'.")
+    elif version == 3:
+        if state == "ghz":
+            programs = {verifier: GHZVerifierNode_v3(verifier, node_names, n_test)}
+            programs.update({name: GHZMemberNode_v3(name, node_names, n_test) 
+                            for name in node_names if name != verifier})
+        else:
+            raise ValueError("Version 3 is only compatible with GHZ states.")
+    else:
+        raise ValueError("Protocol version number must be 1, 2 or 3.")
+
+    return programs, node_names
+
+def init_sensing_programs(num_nodes: int, n_test: int, failure_threshold: float):
+    # Initialize node names list and select verifier node
+    node_names = [f"Node_{i+1}" for i in range(num_nodes)]
+    verifier = node_names[0]
+
+    programs = {verifier: SensingProgram_verifier(verifier, node_names, n_test, failure_threshold)}
+    programs.update({name: SensingProgram_member(name, node_names, n_test) 
+                    for name in node_names if name != verifier})
+    
+    return programs, node_names
+
+###
+#   Function to load configuration for a generic qdevice from YAML file.
+#   Files should be in folder named 'qia_params' in the working directory.
+#   Files must be named qdevice_params{_current, _optimistic}.yaml
+###
+def configure_qdevice(use_optimistic: bool=False, is_perfect: bool=False, num_qubits: int=100):
+    if is_perfect:
+        # Generate generic qdevice configuration with no noise
+        qdevice_cfg = GenericQDeviceConfig.perfect_config(num_qubits)
+    else:
+        postfix = "_optimistic" if use_optimistic else "_current"
+        # Load generic qdevice configuration from YAML file
+        qdevice_cfg = GenericQDeviceConfig.from_file(f"qia_params/qdevice_params{postfix}.yaml")
+        qdevice_cfg.num_qubits = num_qubits
+
+    return qdevice_cfg
+
+###
+#   Function to load configuration for a quantum link from YAML file.
+#   Link type must be either 'perfect' or 'depolarise'. 
+#   If not specified, 'depolarise' configuration will be created by default.
+#   Files should be in folder named 'qia_params' in the working directory.
+#   Files must be named link_params{_current, _optimistic}{_high_fid}.yaml
+###
+def configure_link(use_high_fidelity: bool=False, use_optimistic: bool=False, link_typ: str="depolarise"):
+    if link_typ == "perfect":
+        # Generate perfect link configuration
+        link_cfg = DepolariseQLinkConfig.from_file(f"qia_params/link_params_perfect.yaml")
+    else:
+        postfix = "_optimistic" if use_optimistic else "_current"
+        if use_high_fidelity:
+            postfix += "_high_fid" 
+        # Load link configuration based on link type requested
+        if link_typ == "depolarise":
+            link_cfg = DepolariseQLinkConfig.from_file(f"qia_params/link_params{postfix}.yaml")
+        else:
+            raise ValueError("Unsupported link type")
+    
+    return link_cfg
+
+
+### 
+#   Function to configure network given the node names, quantum link type, and parameter options.
+#   Uses configure_device and configure_link to generate stack and link configurations.
+#   Link type is 'depolarise' by default
+#   Generates a clink configuration based on 50 km separation and speed of light of 200,000 km/s.
+#   Returns StackNetworkConfig object generated by create_complete_graph_network function
+###
+def configure_network(node_names: List[str], use_high_fidelity: bool, use_optimistic: bool, link_typ: str='depolarise'):
+    # Load generic qdevice configuration from YAML file
+    qdevice_cfg = configure_qdevice(use_optimistic)
+    # Create clink configuration 
+    clink_cfg = DefaultCLinkConfig(speed_of_light=200_000, length=50)
+    # Load link configuration based on link type requested
+    link_cfg = configure_link(use_high_fidelity, use_optimistic, link_typ)
+    
+    # Create network configuration based on given parameters
+    network_cfg = create_complete_graph_network(
+            node_names,
+            link_typ=link_typ,
+            link_cfg=link_cfg,
+            clink_typ="default",
+            clink_cfg=clink_cfg,
+            qdevice_typ="generic",
+            qdevice_cfg=qdevice_cfg
+        )
+
+    return network_cfg
+
+###
+#   Function to generate configuration for a noiseless network.
+#   Uses configure_qdevice to generate generic qdevice config with no noise.
+#   Generates default link and clink config with 100 ns delay
+###
+def configure_perfect_network(node_names: List[str]):
+    # Generate generic qdevice config with no noise
+    qdevice_cfg = configure_qdevice(is_perfect=True)
+    # Create clink configuration 
+    clink_cfg = DefaultCLinkConfig(delay=100)
+    # Generate perfect link configuration
+    link_cfg = PerfectQLinkConfig(state_delay=100)
+
+    # Create network configuration based on given parameters
+    network_cfg = create_complete_graph_network(
+            node_names,
+            link_typ="perfect",
+            link_cfg=link_cfg,
+            clink_typ="default",
+            clink_cfg=clink_cfg,
+            qdevice_typ="generic",
+            qdevice_cfg=qdevice_cfg
+        )
+    
+    return network_cfg  
+
+
+if __name__ == '__main__':
+    # Test code
+    num_nodes = 3
+    programs, node_names = init_GHZ_programs(num_nodes)
+    network_cfg = configure_network(
+        node_names,
+        use_high_fidelity=False,
+        use_optimistic=False,
+        link_typ="depolarise"
+    )
+    #pprint([stack.__dict__ for stack in network_cfg.stacks])
+
+    # Change qdevice configuration for all nodes
+    """ new_stack_cfg = configure_qdevice(is_perfect=True)
+    for stack in network_cfg.stacks:
+        stack.qdevice_cfg = new_stack_cfg
+    pprint([stack.__dict__ for stack in network_cfg.stacks]) """
+
+    # Change link fidelity for all links
+    new_link_cfg = configure_link(link_typ="perfect")
+    for link in network_cfg.links:
+        link.cfg = new_link_cfg
+    pprint([link.cfg for link in network_cfg.links])

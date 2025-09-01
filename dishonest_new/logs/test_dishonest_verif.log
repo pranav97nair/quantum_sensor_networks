@@ -1,0 +1,359 @@
+WARNING:0.0 ns:Stack.Node_1_Verifier:Total GHZ copies: 21
+WARNING:0.0 ns:Stack.Node_1_Verifier:Total tests: 20
+WARNING:0.0 ns:Stack.Node_1_Verifier:Stabilizers: ['-YYXXXX', '-XYYXXX', '-XXYYXX', '-XXXYYX', '-XXXXYY', 'XXXXXX', 'IIIIII', 'ZIZIII', 'ZZZZII', 'ZZIZZI', 'ZZIIZZ', 'ZZIIII', 'IZIZII', 'IZZZZI', 'IZZIZZ', 'IZZIII', 'IIZIZI', 'IIZZZZ', 'IIZZII', 'IIIZIZ', 'IIIZZI', 'IIIIZZ', '-YXXYXX', 'YXYYYX', 'YXYXYY', '-YXYXXX', 'YYYXYX', '-YYYYYY', 'YYYYXX', 'YYXYXY', 'YYXYYX', 'YYXXYY', '-XYXXYX', 'XYXYYY', '-XYXYXX', 'XYYYXY', 'XYYYYX', 'XYYXYY', '-XXYXXY', '-XXYXYX', 'XXYYYY', '-XXXYXY', 'ZIIIZI', 'ZIIZZZ', 'ZIIZII', 'ZIZZIZ', 'ZIZZZI', 'ZIZIZZ', 'ZZZIIZ', 'ZZZIZI', 'ZZZZZZ', 'ZZIZIZ', 'IZIIIZ', 'IZIIZI', 'IZIZZZ', 'IZZZIZ', 'IIZIIZ', '-YXXXXY', '-YXXXYX', 'YXXYYY', 'YXYYXY', 'YYYXXY', '-XYXXXY', 'ZIIIIZ']
+WARNING:0.0 ns:Stack.Node_1_Verifier:Target copy: 10
+WARNING:0.0 ns:Stack.Node_1_Verifier:Stabilizer tests
+WARNING:0.0 ns:Stack.Node_1_Verifier:Copy 9: XXXXXX
+WARNING:0.0 ns:Stack.Node_1_Verifier:Copy 18: XYYYXY
+WARNING:0.0 ns:Stack.Node_1_Verifier:Copy 11: -XXYXXY
+WARNING:0.0 ns:Stack.Node_1_Verifier:Copy 8: -XXXYYX
+WARNING:0.0 ns:Stack.Node_1_Verifier:Copy 20: IZIZII
+WARNING:0.0 ns:Stack.Node_1_Verifier:Copy 14: IZIIZI
+WARNING:0.0 ns:Stack.Node_1_Verifier:Copy 6: -YXYXXX
+WARNING:0.0 ns:Stack.Node_1_Verifier:Copy 19: -XYXXXY
+WARNING:0.0 ns:Stack.Node_1_Verifier:Copy 3: ZIIIZI
+WARNING:0.0 ns:Stack.Node_1_Verifier:Copy 13: ZIZIZZ
+WARNING:0.0 ns:Stack.Node_1_Verifier:Copy 12: -YXYXXX
+WARNING:0.0 ns:Stack.Node_1_Verifier:Copy 5: ZZZIZI
+WARNING:0.0 ns:Stack.Node_1_Verifier:Copy 17: IIIZIZ
+WARNING:0.0 ns:Stack.Node_1_Verifier:Copy 7: -XXXYXY
+WARNING:0.0 ns:Stack.Node_1_Verifier:Copy 16: XYYYXY
+WARNING:0.0 ns:Stack.Node_1_Verifier:Copy 2: -XYXXYX
+WARNING:0.0 ns:Stack.Node_1_Verifier:Copy 1: IZIIZI
+WARNING:0.0 ns:Stack.Node_1_Verifier:Copy 0: -YXXXYX
+WARNING:0.0 ns:Stack.Node_1_Verifier:Copy 15: -YXYXXX
+WARNING:0.0 ns:Stack.Node_1_Verifier:Copy 4: ZZZIZI
+WARNING:400.0 ns:Stack.Node_1_Verifier:Copy: 0, qubit action: measure
+WARNING:400.0 ns:Stack.Node_1_Verifier:Measurement: ['Y', 'X', 'X', 'X', 'Y', 'X']
+WARNING:400.0 ns:Stack.Node_1_Verifier:Node_1 will measure in Y basis
+WARNING:700.0 ns:Stack.Node_2_Member:Copy: 0, Received qubit action: measure
+WARNING:700.0 ns:Stack.Node_2_Member:Node_2 will measure in X basis
+WARNING:1000.0 ns:Stack.Node_3_Member:Copy: 0, Received qubit action: measure
+WARNING:1000.0 ns:Stack.Node_3_Member:Node_3 will measure in X basis
+WARNING:1300.0 ns:Stack.Node_4_Member:Copy: 0, Received qubit action: measure
+WARNING:1300.0 ns:Stack.Node_4_Member:Node_4 will measure in X basis
+WARNING:1600.0 ns:Stack.Node_5_Member:Copy: 0, Received qubit action: measure
+WARNING:1600.0 ns:Stack.Node_5_Member:Node_5 will measure in Y basis
+WARNING:1800.0 ns:Stack.Node_6_Member:Copy: 0, Received qubit action: measure
+WARNING:1800.0 ns:Stack.Node_6_Member:Node_6 will measure in X basis
+WARNING:2200.0 ns:Stack.Node_1_Verifier:Copy: 1, qubit action: measure
+WARNING:2200.0 ns:Stack.Node_1_Verifier:Measurement: ['I', 'Z', 'I', 'I', 'Z', 'I']
+WARNING:2200.0 ns:Stack.Node_1_Verifier:Node_1 will measure in I basis
+WARNING:2500.0 ns:Stack.Node_2_Member:Copy: 1, Received qubit action: measure
+WARNING:2500.0 ns:Stack.Node_2_Member:Node_2 will measure in Z basis
+WARNING:2800.0 ns:Stack.Node_3_Member:Copy: 1, Received qubit action: measure
+WARNING:2800.0 ns:Stack.Node_3_Member:Node_3 will measure in I basis
+WARNING:3100.0 ns:Stack.Node_4_Member:Copy: 1, Received qubit action: measure
+WARNING:3100.0 ns:Stack.Node_4_Member:Node_4 will measure in I basis
+WARNING:3400.0 ns:Stack.Node_5_Member:Copy: 1, Received qubit action: measure
+WARNING:3400.0 ns:Stack.Node_5_Member:Node_5 will measure in Z basis
+WARNING:3600.0 ns:Stack.Node_6_Member:Copy: 1, Received qubit action: measure
+WARNING:3600.0 ns:Stack.Node_6_Member:Node_6 will measure in I basis
+WARNING:4000.0 ns:Stack.Node_1_Verifier:Copy: 2, qubit action: measure
+WARNING:4000.0 ns:Stack.Node_1_Verifier:Measurement: ['X', 'Y', 'X', 'X', 'Y', 'X']
+WARNING:4000.0 ns:Stack.Node_1_Verifier:Node_1 will measure in X basis
+WARNING:4300.0 ns:Stack.Node_2_Member:Copy: 2, Received qubit action: measure
+WARNING:4300.0 ns:Stack.Node_2_Member:Node_2 will measure in Y basis
+WARNING:4600.0 ns:Stack.Node_3_Member:Copy: 2, Received qubit action: measure
+WARNING:4600.0 ns:Stack.Node_3_Member:Node_3 will measure in X basis
+WARNING:4900.0 ns:Stack.Node_4_Member:Copy: 2, Received qubit action: measure
+WARNING:4900.0 ns:Stack.Node_4_Member:Node_4 will measure in X basis
+WARNING:5200.0 ns:Stack.Node_5_Member:Copy: 2, Received qubit action: measure
+WARNING:5200.0 ns:Stack.Node_5_Member:Node_5 will measure in Y basis
+WARNING:5400.0 ns:Stack.Node_6_Member:Copy: 2, Received qubit action: measure
+WARNING:5400.0 ns:Stack.Node_6_Member:Node_6 will measure in X basis
+WARNING:5800.0 ns:Stack.Node_1_Verifier:Copy: 3, qubit action: measure
+WARNING:5800.0 ns:Stack.Node_1_Verifier:Measurement: ['Z', 'I', 'I', 'I', 'Z', 'I']
+WARNING:5800.0 ns:Stack.Node_1_Verifier:Node_1 will measure in Z basis
+WARNING:6100.0 ns:Stack.Node_2_Member:Copy: 3, Received qubit action: measure
+WARNING:6100.0 ns:Stack.Node_2_Member:Node_2 will measure in I basis
+WARNING:6400.0 ns:Stack.Node_3_Member:Copy: 3, Received qubit action: measure
+WARNING:6400.0 ns:Stack.Node_3_Member:Node_3 will measure in I basis
+WARNING:6700.0 ns:Stack.Node_4_Member:Copy: 3, Received qubit action: measure
+WARNING:6700.0 ns:Stack.Node_4_Member:Node_4 will measure in I basis
+WARNING:7000.0 ns:Stack.Node_5_Member:Copy: 3, Received qubit action: measure
+WARNING:7000.0 ns:Stack.Node_5_Member:Node_5 will measure in Z basis
+WARNING:7200.0 ns:Stack.Node_6_Member:Copy: 3, Received qubit action: measure
+WARNING:7200.0 ns:Stack.Node_6_Member:Node_6 will measure in I basis
+WARNING:7600.0 ns:Stack.Node_1_Verifier:Copy: 4, qubit action: measure
+WARNING:7600.0 ns:Stack.Node_1_Verifier:Measurement: ['Z', 'Z', 'Z', 'I', 'Z', 'I']
+WARNING:7600.0 ns:Stack.Node_1_Verifier:Node_1 will measure in Z basis
+WARNING:7900.0 ns:Stack.Node_2_Member:Copy: 4, Received qubit action: measure
+WARNING:7900.0 ns:Stack.Node_2_Member:Node_2 will measure in Z basis
+WARNING:8200.0 ns:Stack.Node_3_Member:Copy: 4, Received qubit action: measure
+WARNING:8200.0 ns:Stack.Node_3_Member:Node_3 will measure in Z basis
+WARNING:8500.0 ns:Stack.Node_4_Member:Copy: 4, Received qubit action: measure
+WARNING:8500.0 ns:Stack.Node_4_Member:Node_4 will measure in I basis
+WARNING:8800.0 ns:Stack.Node_5_Member:Copy: 4, Received qubit action: measure
+WARNING:8800.0 ns:Stack.Node_5_Member:Node_5 will measure in Z basis
+WARNING:9000.0 ns:Stack.Node_6_Member:Copy: 4, Received qubit action: measure
+WARNING:9000.0 ns:Stack.Node_6_Member:Node_6 will measure in I basis
+WARNING:9400.0 ns:Stack.Node_1_Verifier:Copy: 5, qubit action: measure
+WARNING:9400.0 ns:Stack.Node_1_Verifier:Measurement: ['Z', 'Z', 'Z', 'I', 'Z', 'I']
+WARNING:9400.0 ns:Stack.Node_1_Verifier:Node_1 will measure in Z basis
+WARNING:9700.0 ns:Stack.Node_2_Member:Copy: 5, Received qubit action: measure
+WARNING:9700.0 ns:Stack.Node_2_Member:Node_2 will measure in Z basis
+WARNING:10000.0 ns:Stack.Node_3_Member:Copy: 5, Received qubit action: measure
+WARNING:10000.0 ns:Stack.Node_3_Member:Node_3 will measure in Z basis
+WARNING:10300.0 ns:Stack.Node_4_Member:Copy: 5, Received qubit action: measure
+WARNING:10300.0 ns:Stack.Node_4_Member:Node_4 will measure in I basis
+WARNING:10600.0 ns:Stack.Node_5_Member:Copy: 5, Received qubit action: measure
+WARNING:10600.0 ns:Stack.Node_5_Member:Node_5 will measure in Z basis
+WARNING:10800.0 ns:Stack.Node_6_Member:Copy: 5, Received qubit action: measure
+WARNING:10800.0 ns:Stack.Node_6_Member:Node_6 will measure in I basis
+WARNING:11200.0 ns:Stack.Node_1_Verifier:Copy: 6, qubit action: measure
+WARNING:11200.0 ns:Stack.Node_1_Verifier:Measurement: ['Y', 'X', 'Y', 'X', 'X', 'X']
+WARNING:11200.0 ns:Stack.Node_1_Verifier:Node_1 will measure in Y basis
+WARNING:11500.0 ns:Stack.Node_2_Member:Copy: 6, Received qubit action: measure
+WARNING:11500.0 ns:Stack.Node_2_Member:Node_2 will measure in X basis
+WARNING:11800.0 ns:Stack.Node_3_Member:Copy: 6, Received qubit action: measure
+WARNING:11800.0 ns:Stack.Node_3_Member:Node_3 will measure in Y basis
+WARNING:12100.0 ns:Stack.Node_4_Member:Copy: 6, Received qubit action: measure
+WARNING:12100.0 ns:Stack.Node_4_Member:Node_4 will measure in X basis
+WARNING:12400.0 ns:Stack.Node_5_Member:Copy: 6, Received qubit action: measure
+WARNING:12400.0 ns:Stack.Node_5_Member:Node_5 will measure in X basis
+WARNING:12600.0 ns:Stack.Node_6_Member:Copy: 6, Received qubit action: measure
+WARNING:12600.0 ns:Stack.Node_6_Member:Node_6 will measure in X basis
+WARNING:13000.0 ns:Stack.Node_1_Verifier:Copy: 7, qubit action: measure
+WARNING:13000.0 ns:Stack.Node_1_Verifier:Measurement: ['X', 'X', 'X', 'Y', 'X', 'Y']
+WARNING:13000.0 ns:Stack.Node_1_Verifier:Node_1 will measure in X basis
+WARNING:13300.0 ns:Stack.Node_2_Member:Copy: 7, Received qubit action: measure
+WARNING:13300.0 ns:Stack.Node_2_Member:Node_2 will measure in X basis
+WARNING:13600.0 ns:Stack.Node_3_Member:Copy: 7, Received qubit action: measure
+WARNING:13600.0 ns:Stack.Node_3_Member:Node_3 will measure in X basis
+WARNING:13900.0 ns:Stack.Node_4_Member:Copy: 7, Received qubit action: measure
+WARNING:13900.0 ns:Stack.Node_4_Member:Node_4 will measure in Y basis
+WARNING:14200.0 ns:Stack.Node_5_Member:Copy: 7, Received qubit action: measure
+WARNING:14200.0 ns:Stack.Node_5_Member:Node_5 will measure in X basis
+WARNING:14400.0 ns:Stack.Node_6_Member:Copy: 7, Received qubit action: measure
+WARNING:14400.0 ns:Stack.Node_6_Member:Node_6 will measure in Y basis
+WARNING:14800.0 ns:Stack.Node_1_Verifier:Copy: 8, qubit action: measure
+WARNING:14800.0 ns:Stack.Node_1_Verifier:Measurement: ['X', 'X', 'X', 'Y', 'Y', 'X']
+WARNING:14800.0 ns:Stack.Node_1_Verifier:Node_1 will measure in X basis
+WARNING:15100.0 ns:Stack.Node_2_Member:Copy: 8, Received qubit action: measure
+WARNING:15100.0 ns:Stack.Node_2_Member:Node_2 will measure in X basis
+WARNING:15400.0 ns:Stack.Node_3_Member:Copy: 8, Received qubit action: measure
+WARNING:15400.0 ns:Stack.Node_3_Member:Node_3 will measure in X basis
+WARNING:15700.0 ns:Stack.Node_4_Member:Copy: 8, Received qubit action: measure
+WARNING:15700.0 ns:Stack.Node_4_Member:Node_4 will measure in Y basis
+WARNING:16000.0 ns:Stack.Node_5_Member:Copy: 8, Received qubit action: measure
+WARNING:16000.0 ns:Stack.Node_5_Member:Node_5 will measure in Y basis
+WARNING:16200.0 ns:Stack.Node_6_Member:Copy: 8, Received qubit action: measure
+WARNING:16200.0 ns:Stack.Node_6_Member:Node_6 will measure in X basis
+WARNING:16600.0 ns:Stack.Node_1_Verifier:Copy: 9, qubit action: measure
+WARNING:16600.0 ns:Stack.Node_1_Verifier:Measurement: ['X', 'X', 'X', 'X', 'X', 'X']
+WARNING:16600.0 ns:Stack.Node_1_Verifier:Node_1 will measure in X basis
+WARNING:16900.0 ns:Stack.Node_2_Member:Copy: 9, Received qubit action: measure
+WARNING:16900.0 ns:Stack.Node_2_Member:Node_2 will measure in X basis
+WARNING:17200.0 ns:Stack.Node_3_Member:Copy: 9, Received qubit action: measure
+WARNING:17200.0 ns:Stack.Node_3_Member:Node_3 will measure in X basis
+WARNING:17500.0 ns:Stack.Node_4_Member:Copy: 9, Received qubit action: measure
+WARNING:17500.0 ns:Stack.Node_4_Member:Node_4 will measure in X basis
+WARNING:17800.0 ns:Stack.Node_5_Member:Copy: 9, Received qubit action: measure
+WARNING:17800.0 ns:Stack.Node_5_Member:Node_5 will measure in X basis
+WARNING:18000.0 ns:Stack.Node_6_Member:Copy: 9, Received qubit action: measure
+WARNING:18000.0 ns:Stack.Node_6_Member:Node_6 will measure in X basis
+WARNING:18400.0 ns:Stack.Node_1_Verifier:Copy: 10, qubit action: keep
+WARNING:18400.0 ns:Stack.Node_1_Verifier:Copy 10 stored as target
+WARNING:18700.0 ns:Stack.Node_2_Member:Copy: 10, Received qubit action: keep
+WARNING:18700.0 ns:Stack.Node_2_Member:Copy 10 stored as target
+WARNING:19000.0 ns:Stack.Node_3_Member:Copy: 10, Received qubit action: keep
+WARNING:19000.0 ns:Stack.Node_3_Member:Copy 10 stored as target
+WARNING:19300.0 ns:Stack.Node_1_Verifier:Copy: 11, qubit action: measure
+WARNING:19300.0 ns:Stack.Node_1_Verifier:Measurement: ['X', 'X', 'Y', 'X', 'X', 'Y']
+WARNING:19300.0 ns:Stack.Node_1_Verifier:Node_1 will measure in X basis
+WARNING:19300.0 ns:Stack.Node_4_Member:Copy: 10, Received qubit action: keep
+WARNING:19300.0 ns:Stack.Node_4_Member:Copy 10 stored as target
+WARNING:19600.0 ns:Stack.Node_5_Member:Copy: 10, Received qubit action: keep
+WARNING:19600.0 ns:Stack.Node_5_Member:Copy 10 stored as target
+WARNING:19600.0 ns:Stack.Node_2_Member:Copy: 11, Received qubit action: measure
+WARNING:19600.0 ns:Stack.Node_2_Member:Node_2 will measure in X basis
+WARNING:19700.0 ns:Stack.Node_6_Member:Copy: 10, Received qubit action: keep
+WARNING:19700.0 ns:Stack.Node_6_Member:Copy 10 stored as target
+WARNING:19900.0 ns:Stack.Node_3_Member:Copy: 11, Received qubit action: measure
+WARNING:19900.0 ns:Stack.Node_3_Member:Node_3 will measure in Y basis
+WARNING:20200.0 ns:Stack.Node_4_Member:Copy: 11, Received qubit action: measure
+WARNING:20200.0 ns:Stack.Node_4_Member:Node_4 will measure in X basis
+WARNING:20500.0 ns:Stack.Node_5_Member:Copy: 11, Received qubit action: measure
+WARNING:20500.0 ns:Stack.Node_5_Member:Node_5 will measure in X basis
+WARNING:20700.0 ns:Stack.Node_6_Member:Copy: 11, Received qubit action: measure
+WARNING:20700.0 ns:Stack.Node_6_Member:Node_6 will measure in Y basis
+WARNING:21100.0 ns:Stack.Node_1_Verifier:Copy: 12, qubit action: measure
+WARNING:21100.0 ns:Stack.Node_1_Verifier:Measurement: ['Y', 'X', 'Y', 'X', 'X', 'X']
+WARNING:21100.0 ns:Stack.Node_1_Verifier:Node_1 will measure in Y basis
+WARNING:21400.0 ns:Stack.Node_2_Member:Copy: 12, Received qubit action: measure
+WARNING:21400.0 ns:Stack.Node_2_Member:Node_2 will measure in X basis
+WARNING:21700.0 ns:Stack.Node_3_Member:Copy: 12, Received qubit action: measure
+WARNING:21700.0 ns:Stack.Node_3_Member:Node_3 will measure in Y basis
+WARNING:22000.0 ns:Stack.Node_4_Member:Copy: 12, Received qubit action: measure
+WARNING:22000.0 ns:Stack.Node_4_Member:Node_4 will measure in X basis
+WARNING:22300.0 ns:Stack.Node_5_Member:Copy: 12, Received qubit action: measure
+WARNING:22300.0 ns:Stack.Node_5_Member:Node_5 will measure in X basis
+WARNING:22500.0 ns:Stack.Node_6_Member:Copy: 12, Received qubit action: measure
+WARNING:22500.0 ns:Stack.Node_6_Member:Node_6 will measure in X basis
+WARNING:22900.0 ns:Stack.Node_1_Verifier:Copy: 13, qubit action: measure
+WARNING:22900.0 ns:Stack.Node_1_Verifier:Measurement: ['Z', 'I', 'Z', 'I', 'Z', 'Z']
+WARNING:22900.0 ns:Stack.Node_1_Verifier:Node_1 will measure in Z basis
+WARNING:23200.0 ns:Stack.Node_2_Member:Copy: 13, Received qubit action: measure
+WARNING:23200.0 ns:Stack.Node_2_Member:Node_2 will measure in I basis
+WARNING:23500.0 ns:Stack.Node_3_Member:Copy: 13, Received qubit action: measure
+WARNING:23500.0 ns:Stack.Node_3_Member:Node_3 will measure in Z basis
+WARNING:23800.0 ns:Stack.Node_4_Member:Copy: 13, Received qubit action: measure
+WARNING:23800.0 ns:Stack.Node_4_Member:Node_4 will measure in I basis
+WARNING:24100.0 ns:Stack.Node_5_Member:Copy: 13, Received qubit action: measure
+WARNING:24100.0 ns:Stack.Node_5_Member:Node_5 will measure in Z basis
+WARNING:24300.0 ns:Stack.Node_6_Member:Copy: 13, Received qubit action: measure
+WARNING:24300.0 ns:Stack.Node_6_Member:Node_6 will measure in Z basis
+WARNING:24700.0 ns:Stack.Node_1_Verifier:Copy: 14, qubit action: measure
+WARNING:24700.0 ns:Stack.Node_1_Verifier:Measurement: ['I', 'Z', 'I', 'I', 'Z', 'I']
+WARNING:24700.0 ns:Stack.Node_1_Verifier:Node_1 will measure in I basis
+WARNING:25000.0 ns:Stack.Node_2_Member:Copy: 14, Received qubit action: measure
+WARNING:25000.0 ns:Stack.Node_2_Member:Node_2 will measure in Z basis
+WARNING:25300.0 ns:Stack.Node_3_Member:Copy: 14, Received qubit action: measure
+WARNING:25300.0 ns:Stack.Node_3_Member:Node_3 will measure in I basis
+WARNING:25600.0 ns:Stack.Node_4_Member:Copy: 14, Received qubit action: measure
+WARNING:25600.0 ns:Stack.Node_4_Member:Node_4 will measure in I basis
+WARNING:25900.0 ns:Stack.Node_5_Member:Copy: 14, Received qubit action: measure
+WARNING:25900.0 ns:Stack.Node_5_Member:Node_5 will measure in Z basis
+WARNING:26100.0 ns:Stack.Node_6_Member:Copy: 14, Received qubit action: measure
+WARNING:26100.0 ns:Stack.Node_6_Member:Node_6 will measure in I basis
+WARNING:26500.0 ns:Stack.Node_1_Verifier:Copy: 15, qubit action: measure
+WARNING:26500.0 ns:Stack.Node_1_Verifier:Measurement: ['Y', 'X', 'Y', 'X', 'X', 'X']
+WARNING:26500.0 ns:Stack.Node_1_Verifier:Node_1 will measure in Y basis
+WARNING:26800.0 ns:Stack.Node_2_Member:Copy: 15, Received qubit action: measure
+WARNING:26800.0 ns:Stack.Node_2_Member:Node_2 will measure in X basis
+WARNING:27100.0 ns:Stack.Node_3_Member:Copy: 15, Received qubit action: measure
+WARNING:27100.0 ns:Stack.Node_3_Member:Node_3 will measure in Y basis
+WARNING:27400.0 ns:Stack.Node_4_Member:Copy: 15, Received qubit action: measure
+WARNING:27400.0 ns:Stack.Node_4_Member:Node_4 will measure in X basis
+WARNING:27700.0 ns:Stack.Node_5_Member:Copy: 15, Received qubit action: measure
+WARNING:27700.0 ns:Stack.Node_5_Member:Node_5 will measure in X basis
+WARNING:27900.0 ns:Stack.Node_6_Member:Copy: 15, Received qubit action: measure
+WARNING:27900.0 ns:Stack.Node_6_Member:Node_6 will measure in X basis
+WARNING:28300.0 ns:Stack.Node_1_Verifier:Copy: 16, qubit action: measure
+WARNING:28300.0 ns:Stack.Node_1_Verifier:Measurement: ['X', 'Y', 'Y', 'Y', 'X', 'Y']
+WARNING:28300.0 ns:Stack.Node_1_Verifier:Node_1 will measure in X basis
+WARNING:28600.0 ns:Stack.Node_2_Member:Copy: 16, Received qubit action: measure
+WARNING:28600.0 ns:Stack.Node_2_Member:Node_2 will measure in Y basis
+WARNING:28900.0 ns:Stack.Node_3_Member:Copy: 16, Received qubit action: measure
+WARNING:28900.0 ns:Stack.Node_3_Member:Node_3 will measure in Y basis
+WARNING:29200.0 ns:Stack.Node_4_Member:Copy: 16, Received qubit action: measure
+WARNING:29200.0 ns:Stack.Node_4_Member:Node_4 will measure in Y basis
+WARNING:29500.0 ns:Stack.Node_5_Member:Copy: 16, Received qubit action: measure
+WARNING:29500.0 ns:Stack.Node_5_Member:Node_5 will measure in X basis
+WARNING:29700.0 ns:Stack.Node_6_Member:Copy: 16, Received qubit action: measure
+WARNING:29700.0 ns:Stack.Node_6_Member:Node_6 will measure in Y basis
+WARNING:30100.0 ns:Stack.Node_1_Verifier:Copy: 17, qubit action: measure
+WARNING:30100.0 ns:Stack.Node_1_Verifier:Measurement: ['I', 'I', 'I', 'Z', 'I', 'Z']
+WARNING:30100.0 ns:Stack.Node_1_Verifier:Node_1 will measure in I basis
+WARNING:30400.0 ns:Stack.Node_2_Member:Copy: 17, Received qubit action: measure
+WARNING:30400.0 ns:Stack.Node_2_Member:Node_2 will measure in I basis
+WARNING:30700.0 ns:Stack.Node_3_Member:Copy: 17, Received qubit action: measure
+WARNING:30700.0 ns:Stack.Node_3_Member:Node_3 will measure in I basis
+WARNING:31000.0 ns:Stack.Node_4_Member:Copy: 17, Received qubit action: measure
+WARNING:31000.0 ns:Stack.Node_4_Member:Node_4 will measure in Z basis
+WARNING:31300.0 ns:Stack.Node_5_Member:Copy: 17, Received qubit action: measure
+WARNING:31300.0 ns:Stack.Node_5_Member:Node_5 will measure in I basis
+WARNING:31500.0 ns:Stack.Node_6_Member:Copy: 17, Received qubit action: measure
+WARNING:31500.0 ns:Stack.Node_6_Member:Node_6 will measure in Z basis
+WARNING:31900.0 ns:Stack.Node_1_Verifier:Copy: 18, qubit action: measure
+WARNING:31900.0 ns:Stack.Node_1_Verifier:Measurement: ['X', 'Y', 'Y', 'Y', 'X', 'Y']
+WARNING:31900.0 ns:Stack.Node_1_Verifier:Node_1 will measure in X basis
+WARNING:32200.0 ns:Stack.Node_2_Member:Copy: 18, Received qubit action: measure
+WARNING:32200.0 ns:Stack.Node_2_Member:Node_2 will measure in Y basis
+WARNING:32500.0 ns:Stack.Node_3_Member:Copy: 18, Received qubit action: measure
+WARNING:32500.0 ns:Stack.Node_3_Member:Node_3 will measure in Y basis
+WARNING:32800.0 ns:Stack.Node_4_Member:Copy: 18, Received qubit action: measure
+WARNING:32800.0 ns:Stack.Node_4_Member:Node_4 will measure in Y basis
+WARNING:33100.0 ns:Stack.Node_5_Member:Copy: 18, Received qubit action: measure
+WARNING:33100.0 ns:Stack.Node_5_Member:Node_5 will measure in X basis
+WARNING:33300.0 ns:Stack.Node_6_Member:Copy: 18, Received qubit action: measure
+WARNING:33300.0 ns:Stack.Node_6_Member:Node_6 will measure in Y basis
+WARNING:33700.0 ns:Stack.Node_1_Verifier:Copy: 19, qubit action: measure
+WARNING:33700.0 ns:Stack.Node_1_Verifier:Measurement: ['X', 'Y', 'X', 'X', 'X', 'Y']
+WARNING:33700.0 ns:Stack.Node_1_Verifier:Node_1 will measure in X basis
+WARNING:34000.0 ns:Stack.Node_2_Member:Copy: 19, Received qubit action: measure
+WARNING:34000.0 ns:Stack.Node_2_Member:Node_2 will measure in Y basis
+WARNING:34300.0 ns:Stack.Node_3_Member:Copy: 19, Received qubit action: measure
+WARNING:34300.0 ns:Stack.Node_3_Member:Node_3 will measure in X basis
+WARNING:34600.0 ns:Stack.Node_4_Member:Copy: 19, Received qubit action: measure
+WARNING:34600.0 ns:Stack.Node_4_Member:Node_4 will measure in X basis
+WARNING:34900.0 ns:Stack.Node_5_Member:Copy: 19, Received qubit action: measure
+WARNING:34900.0 ns:Stack.Node_5_Member:Node_5 will measure in X basis
+WARNING:35100.0 ns:Stack.Node_6_Member:Copy: 19, Received qubit action: measure
+WARNING:35100.0 ns:Stack.Node_6_Member:Node_6 will measure in Y basis
+WARNING:35500.0 ns:Stack.Node_1_Verifier:Copy: 20, qubit action: measure
+WARNING:35500.0 ns:Stack.Node_1_Verifier:Measurement: ['I', 'Z', 'I', 'Z', 'I', 'I']
+WARNING:35500.0 ns:Stack.Node_1_Verifier:Node_1 will measure in I basis
+WARNING:35800.0 ns:Stack.Node_2_Member:Copy: 20, Received qubit action: measure
+WARNING:35800.0 ns:Stack.Node_2_Member:Node_2 will measure in Z basis
+WARNING:36100.0 ns:Stack.Node_3_Member:Copy: 20, Received qubit action: measure
+WARNING:36100.0 ns:Stack.Node_3_Member:Node_3 will measure in I basis
+WARNING:36400.0 ns:Stack.Node_4_Member:Copy: 20, Received qubit action: measure
+WARNING:36400.0 ns:Stack.Node_4_Member:Node_4 will measure in Z basis
+WARNING:36700.0 ns:Stack.Node_5_Member:Copy: 20, Received qubit action: measure
+WARNING:36700.0 ns:Stack.Node_5_Member:Node_5 will measure in I basis
+WARNING:36900.0 ns:Stack.Node_6_Member:Copy: 20, Received qubit action: measure
+WARNING:36900.0 ns:Stack.Node_6_Member:Node_6 will measure in I basis
+WARNING:36900.0 ns:Stack.Node_6_Member:Outputting density matrix of shared state
+WARNING:37000.0 ns:Stack.Node_1_Verifier:Measurement bases: ['Y', 'X', 'X', 'X', 'Y', 'X']
+WARNING:37000.0 ns:Stack.Node_1_Verifier:Results:
+WARNING:37000.0 ns:Stack.Node_1_Verifier:[-1  1 -1  1 -1 -1]
+WARNING:37000.0 ns:Stack.Node_1_Verifier:Measurement bases: ['I', 'Z', 'I', 'I', 'Z', 'I']
+WARNING:37000.0 ns:Stack.Node_1_Verifier:Results:
+WARNING:37000.0 ns:Stack.Node_1_Verifier:[ 1 -1  1  1  1  1]
+WARNING:37000.0 ns:Stack.Node_1_Verifier:Measurement bases: ['X', 'Y', 'X', 'X', 'Y', 'X']
+WARNING:37000.0 ns:Stack.Node_1_Verifier:Results:
+WARNING:37000.0 ns:Stack.Node_1_Verifier:[ 1  1  1 -1  1 -1]
+WARNING:37000.0 ns:Stack.Node_1_Verifier:Measurement bases: ['Z', 'I', 'I', 'I', 'Z', 'I']
+WARNING:37000.0 ns:Stack.Node_1_Verifier:Results:
+WARNING:37000.0 ns:Stack.Node_1_Verifier:[ 1  1  1  1 -1  1]
+WARNING:37000.0 ns:Stack.Node_1_Verifier:Measurement bases: ['Z', 'Z', 'Z', 'I', 'Z', 'I']
+WARNING:37000.0 ns:Stack.Node_1_Verifier:Results:
+WARNING:37000.0 ns:Stack.Node_1_Verifier:[-1 -1 -1  1  1  1]
+WARNING:37000.0 ns:Stack.Node_1_Verifier:Measurement bases: ['Z', 'Z', 'Z', 'I', 'Z', 'I']
+WARNING:37000.0 ns:Stack.Node_1_Verifier:Results:
+WARNING:37000.0 ns:Stack.Node_1_Verifier:[-1 -1 -1  1  1  1]
+WARNING:37000.0 ns:Stack.Node_1_Verifier:Measurement bases: ['Y', 'X', 'Y', 'X', 'X', 'X']
+WARNING:37000.0 ns:Stack.Node_1_Verifier:Results:
+WARNING:37000.0 ns:Stack.Node_1_Verifier:[-1 -1 -1  1 -1 -1]
+WARNING:37000.0 ns:Stack.Node_1_Verifier:Measurement bases: ['X', 'X', 'X', 'Y', 'X', 'Y']
+WARNING:37000.0 ns:Stack.Node_1_Verifier:Results:
+WARNING:37000.0 ns:Stack.Node_1_Verifier:[-1 -1 -1 -1 -1  1]
+WARNING:37000.0 ns:Stack.Node_1_Verifier:Measurement bases: ['X', 'X', 'X', 'Y', 'Y', 'X']
+WARNING:37000.0 ns:Stack.Node_1_Verifier:Results:
+WARNING:37000.0 ns:Stack.Node_1_Verifier:[-1 -1  1 -1 -1  1]
+WARNING:37000.0 ns:Stack.Node_1_Verifier:Measurement bases: ['X', 'X', 'X', 'X', 'X', 'X']
+WARNING:37000.0 ns:Stack.Node_1_Verifier:Results:
+WARNING:37000.0 ns:Stack.Node_1_Verifier:[-1 -1 -1  1  1 -1]
+WARNING:37000.0 ns:Stack.Node_1_Verifier:Measurement bases: ['X', 'X', 'Y', 'X', 'X', 'Y']
+WARNING:37000.0 ns:Stack.Node_1_Verifier:Results:
+WARNING:37000.0 ns:Stack.Node_1_Verifier:[ 1 -1 -1 -1  1  1]
+WARNING:37000.0 ns:Stack.Node_1_Verifier:Measurement bases: ['Y', 'X', 'Y', 'X', 'X', 'X']
+WARNING:37000.0 ns:Stack.Node_1_Verifier:Results:
+WARNING:37000.0 ns:Stack.Node_1_Verifier:[-1 -1  1 -1 -1 -1]
+WARNING:37000.0 ns:Stack.Node_1_Verifier:Measurement bases: ['Z', 'I', 'Z', 'I', 'Z', 'Z']
+WARNING:37000.0 ns:Stack.Node_1_Verifier:Results:
+WARNING:37000.0 ns:Stack.Node_1_Verifier:[-1  1 -1  1  1 -1]
+WARNING:37000.0 ns:Stack.Node_1_Verifier:Measurement bases: ['I', 'Z', 'I', 'I', 'Z', 'I']
+WARNING:37000.0 ns:Stack.Node_1_Verifier:Results:
+WARNING:37000.0 ns:Stack.Node_1_Verifier:[ 1  1  1  1 -1  1]
+WARNING:37000.0 ns:Stack.Node_1_Verifier:Measurement bases: ['Y', 'X', 'Y', 'X', 'X', 'X']
+WARNING:37000.0 ns:Stack.Node_1_Verifier:Results:
+WARNING:37000.0 ns:Stack.Node_1_Verifier:[-1  1  1 -1 -1  1]
+WARNING:37000.0 ns:Stack.Node_1_Verifier:Measurement bases: ['X', 'Y', 'Y', 'Y', 'X', 'Y']
+WARNING:37000.0 ns:Stack.Node_1_Verifier:Results:
+WARNING:37000.0 ns:Stack.Node_1_Verifier:[ 1  1  1  1 -1 -1]
+WARNING:37000.0 ns:Stack.Node_1_Verifier:Measurement bases: ['I', 'I', 'I', 'Z', 'I', 'Z']
+WARNING:37000.0 ns:Stack.Node_1_Verifier:Results:
+WARNING:37000.0 ns:Stack.Node_1_Verifier:[ 1  1  1 -1  1 -1]
+WARNING:37000.0 ns:Stack.Node_1_Verifier:Measurement bases: ['X', 'Y', 'Y', 'Y', 'X', 'Y']
+WARNING:37000.0 ns:Stack.Node_1_Verifier:Results:
+WARNING:37000.0 ns:Stack.Node_1_Verifier:[ 1  1 -1 -1 -1 -1]
+WARNING:37000.0 ns:Stack.Node_1_Verifier:Measurement bases: ['X', 'Y', 'X', 'X', 'X', 'Y']
+WARNING:37000.0 ns:Stack.Node_1_Verifier:Results:
+WARNING:37000.0 ns:Stack.Node_1_Verifier:[-1  1 -1 -1  1  1]
+WARNING:37000.0 ns:Stack.Node_1_Verifier:Measurement bases: ['I', 'Z', 'I', 'Z', 'I', 'I']
+WARNING:37000.0 ns:Stack.Node_1_Verifier:Results:
+WARNING:37000.0 ns:Stack.Node_1_Verifier:[1 1 1 1 1 1]
+WARNING:37000.0 ns:Stack.Node_1_Verifier:Average failure rate: 0.45

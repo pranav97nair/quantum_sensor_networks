@@ -1,0 +1,3 @@
+fidelity: 0.59
+t_cycle: 2_050_000  # 2.05 ms, d=50km
+prob_success: 4.96e-4 # d=50km 0.000496
